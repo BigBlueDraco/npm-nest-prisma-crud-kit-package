@@ -1,6 +1,6 @@
 {
   "name": "@big_blue_dragon/nest-prisma-crud-kit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Efficiently build robust NestJS applications with pre-built Prisma integration and ready-to-use CRUD services. This package provides a base module and service layer that simplifies processing development through common database interaction.",
   "author": "Danylo Hlushko <dafarlog@gmail.com>",
   "license": "MIT",
