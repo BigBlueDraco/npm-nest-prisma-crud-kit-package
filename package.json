@@ -1,11 +1,10 @@
 {
-  "name": "@nestjsplus/nestjs-package-starter",
+  "name": "@big_blue_dragon/nest-prisma-crud-kit",
   "version": "1.0.0",
-  "description": "NestJS npm package starter",
-  "author": "John Biundo <johnfbiundo@gmail.com>",
+  "description": "Efficiently build robust NestJS applications with pre-built Prisma integration and ready-to-use CRUD services. This package provides a base module and service layer that simplifies processing development through common database interaction.",
+  "author": "Danylo Hlushko <dafarlog@gmail.com>",
   "license": "MIT",
-  "readmeFilename": "README.md",
-  "main": "dist/test.js",
+  "main": "dist/index.js",
   "files": [
     "dist/**/*",
     "*.md"
@@ -29,9 +28,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nestjsplus/nestjs-package-starter"
+    "url": "git+https://github.com/BigBlueDraco/npm-prisma-nest-module.git"
   },
-  "bugs": "https://github.com/nestjsplus/nestjs-package-starter",
+  "bugs": {
+    "url": "https://github.com/BigBlueDraco/npm-prisma-nest-module"
+  },
   "peerDependencies": {
     "@nestjs/common": "^11.0.10"
   },
@@ -74,5 +75,6 @@
     "@prisma/client": "^6.4.1",
     "class-transformer": "^0.5.1",
     "class-validator": "^0.14.1"
-  }
+  },
+  "homepage": "https://github.com/BigBlueDraco/npm-prisma-nest-module#readme"
 }
