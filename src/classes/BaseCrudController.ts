@@ -6,7 +6,7 @@ import {
 } from '@nestjs/common';
 import { FindManyDto } from '../dtos';
 
-export class BaseCrudController<
+ class BaseCrudController<
   T,
   Create,
   IdPathParams extends { id: string },
@@ -22,9 +22,9 @@ export class BaseCrudController<
       unknown
     >,
   ) {}
-  async create(createPlantDto: Create): Promise<T> {
+  async create(createDto: Create): Promise<T> {
     try {
-      return await this.baseCrudService.create(createPlantDto);
+      return await this.baseCrudService.create(createDto);
     } catch (error) {
       throw new InternalServerErrorException(
         'Failed to create resource',
