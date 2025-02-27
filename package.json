@@ -1,6 +1,6 @@
 {
   "name": "@big_blue_dragon/nest-prisma-crud-kit",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Efficiently build robust NestJS applications with pre-built Prisma integration and ready-to-use CRUD services. This package provides a base module and service layer that simplifies processing development through common database interaction.",
   "author": "Danylo Hlushko <dafarlog@gmail.com>",
   "license": "MIT",
@@ -28,10 +28,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BigBlueDraco/npm-prisma-nest-module.git"
+    "url": "git+https://github.com/BigBlueDraco/npm-nest-prisma-crud-kit-package"
   },
   "bugs": {
-    "url": "https://github.com/BigBlueDraco/npm-prisma-nest-module"
+    "url": "https://github.com/BigBlueDraco/npm-nest-prisma-crud-kit-package"
   },
   "peerDependencies": {
     "@nestjs/common": "^11.0.10"
@@ -76,5 +76,5 @@
     "class-transformer": "^0.5.1",
     "class-validator": "^0.14.1"
   },
-  "homepage": "https://github.com/BigBlueDraco/npm-prisma-nest-module#readme"
+  "homepage": "https://github.com/BigBlueDraco/npm-nest-prisma-crud-kit-package#readme"
 }
