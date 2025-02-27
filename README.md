@@ -16,7 +16,7 @@ Simplify and accelerate CRUD service development in your NestJS applications usi
 ## Installation 📦
 
 ```bash
-npm install nest-prisma-crud-kit
+npm i @big_blue_dragon/nest-prisma-crud-kit
 ```
 
 ## Prerequisites ⚙️
